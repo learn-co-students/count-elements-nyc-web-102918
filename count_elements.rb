@@ -1,4 +1,6 @@
 def count_elements(array)
-  # code goes here
+ new_hash = {
+   animals = ['bat', 'cat', 'rat']
+ }
 end
  
