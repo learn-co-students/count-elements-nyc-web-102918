@@ -1,4 +1,11 @@
 def count_elements(array)
-  # code goes here
+  new_hash = {}
+    array.each do |elements|
+      if new_hash.has_key?(elements)
+        new_hash[elements] += 1
+      else
+        new_hash[elements] = 1
+    end
+  end
+  new_hash
 end
- 
